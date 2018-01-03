@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.page a{ border:1px solid #ddd; font-size:14px; padding:3px 5px; margin:0 3px; }
+.page a.on{background:#01538a; border:1px solid #01538a; color:#fff;}
+.page_banner{ position:relative; z-index:999; width:100%;height:246px; overflow:hidden;}
+.page_banner .banner_about{background:url(../images/banner_about.jpg) no-repeat center; width:100%; height:246px;}
+.page_banner .banner_news{background:url(../images/banner_news.jpg) no-repeat center; width:100%; height:246px;}
+.page_banner .banner_lianxi{background:url(../images/banner_lianxi.jpg) no-repeat center; width:100%; height:246px;}
+.page_banner .index_banner{background:url(../images/index_banner.jpg) no-repeat center; width:100%; height:100%px;}
+
+.page_content{width:100%;padding-top:10px; margin-bottom:20px; }
+.page_content .left{ width:220px; float:left; margin-right:20px; }
+.page_content .left .menu{ width:218px; border:1px solid #ddd; padding-bottom:50px; background:url(../images/menu_bottom_bg.jpg) repeat-x left  bottom; margin-bottom:15px;}
+.page_content .left .menu h2{ padding:10px 0 0 15px; height:60px; background:url(../images/menu_tt_bg.jpg) no-repeat 0 0;font-size:20px; color:#023670;}
+.page_content .left .menu h2 p {
+    color: #666;
+    font-size: 10px;
+    font-weight: normal;
+    
+}
+
+.page_content .left .menu ul{ padding:0 10px;}
+.page_content .left .menu ul li{ line-height:40px; border-bottom:1px dashed #afafaf; }
+.page_content .left .menu ul li a{ width:178px; padding-left:20px; display:block;color:#4b4b4b; font-size:14px; background:url(../images/icon_thir.jpg) no-repeat 168px 18px;}
+.page_content .left .menu ul li a.on,.page_content .left .menu ul li a:hover{ background:url(../images/menu_li_bg.jpg) no-repeat 0 6px; color:#fff;}
+.page_content .left .contact{ background:#f6f6f6; border:1px solid #ddd; }
+
+.page_content .left .contact .tel{ height:60px; padding:100px 0 0 20px;background:url(../images/left_contact_bg.jpg) no-repeat 0 0; color:#fff; font-size:14px;}
+.page_content .left .contact .tel p{ font-size:24px;}
+.page_content .left .contact .detail{ padding:10px; color:#000;}
+.page_content .left .contact .detail p{ line-height:24px;}
+.page_content .left .contact .detail p span{ color:#666;}
+
+.page_content .right{ width:870px; float:left;}
+.page_content .right .title{ padding:0 10px 0 30px; background:url(../images/page_title_bg.jpg) no-repeat 0 0; height:40px; line-height:40px;}
+.page_content .right .title b{ font-size:16px; color:#023670;}
+.page_content .right .title span{ float:right;}
+.page_content .right .title span a{ margin:0 3px;}
+.page_content .right .title ul li a.on{ color:#0a6b3c; font-weight:bold;}
+.page_content .right .r_content{ padding:20px;background:url(../images/white_bg.png) repeat 0 0;}
+.page_content .right .r_content .about_main .pic{ float:right; margin-left:15px;}
+.page_content .right .r_content .about_main p{ line-height:30px; font-size:14px;}
+.page_content .right .r_content .about_main ul li{ width:174px; float:left; display:inline; margin:0 14px 20px 14px;}
+.page_content .right .r_content .about_main ul li img{ width:170px; height:120px; border:2px solid #ccc;}
+.page_content .right .r_content .about_main ul li h2{width:174px; height:30px; line-height:30px; text-align:center; font-size:14px; font-weight:normal;}
+
+
+.news_main ul li{ height:96px; width:835px; border-bottom:1px dashed #ddd; padding-bottom:20px; margin-bottom:20px;}
+.news_main ul li .pic{ width:170px; float:left; margin-right:15px;}
+.news_main ul li .pic img{ width:164px; height:90px; border:3px solid #ccc;}
+.news_main ul li .text{ width:550px; float:left;}
+.news_main ul li .text h2{ height:30px; width:550px; line-height:30px; overflow:hidden; font-size:14px;}
+.news_main ul li .text p{ line-height:20px;}
+
+.news_main_detail h2{ font-size:16px; line-height:40px; border-bottom:1px dashed #ddd; text-align:center;}
+.news_main_detail .time{ line-height:30px; text-align:center; color:#999;}
+.news_main_detail .box{min-height:320px;/* 解决ie8.9.ff.chrome*/*+height:100%;  /*解决ie7*/_height:320px; /*解决ie6 ie6超出自动溢出*/}
+.news_main_detail .box,.news_main_detail .box p{ line-height:24px; font-size:14px; text-align: justify;}
+
+.rbb_ul {
+	padding-top:10px;
+	padding-left:20px;
+	border-top:solid 1px #ddd;
+	margin-top:15px;
+	color:#555555;
+}
+.rbb_ul li {
+	font-size:14px;
+}
+.rbb_ul li a {
+	color:#282826;
+	font-size:14px;
+}
+.rbb_ul li a:hover {
+	color:red;
+	text-decoration:underline;
+}
+.rbb_li_l {
+	float:left;
+}
+.rbb_li_r {
+	float:right;
+	margin-right:20px;
+}
+
+.pros_main .pic{  margin-bottom:15px;}
+.pros_main p{ line-height:30px; font-size:14px;}
+
+.jobs_main .table01{ background:#ccc;}
+.jobs_main .table01 tr th{ background:#ccc; line-height:40px;}
+.jobs_main .table01 tr td{ background:#fff;line-height:40px;}
+.jobs_main .page{ margin:20px 0;}
+
+.contact_main dl dt{ font-size:16px; line-height:40px; border-bottom:2px solid #ccc;}
+.contact_main dl dt span{ display:block; width:150px; height:40px; border-bottom:2px solid #0A6B3C;}
+.contact_main dl dd{ font-size:14px; line-height:30px;}
+.contact_main .box{ font-size:14px; line-height:30px; border-bottom:1px solid #ccc; padding-bottom:10px; margin-bottom:10px;}
+.contact_main .table01{ font-size:14px;}
+.contact_main .table01 tr td{ line-height:30px; padding-bottom:5px;}
+.contact_main .table01 tr b{ color:#FE2424; margin-left:15px;}
+.contact_main .table01 tr .txt{ width:200px; height:26px; border:1px solid #ccc;}
+.contact_main .table01 tr .txtarea{ width:430px; height:80px; border:1px solid #ccc;}
+.contact_main .table01 tr .btn{ background:#01538A; border:1px solid #01538A;width:100px; height:30px; line-height:30px; text-align:center; color:#fff; cursor:pointer; font-weight:bold; font-size:14px;}

@@ -1,0 +1,10 @@
+INSERT INTO `dede_uploads` VALUES('1','2','李克强2015冬季达沃斯论坛致辞','/uploads/allimg/150729/2023191Z6-0.jpg','1','800','651','0','354304','1438172603','1');
+INSERT INTO `dede_uploads` VALUES('2','3','河南省南召县碳酸钙特色产业发展情况概述','/uploads/allimg/150729/1-150H92024520-L.jpg','1','0','0','0','25100','1438172692','1');
+INSERT INTO `dede_uploads` VALUES('3','4','南召：培育双百产业助转型','/uploads/allimg/150729/1-150H9202I10-L.jpg','1','0','0','0','25760','1438172851','1');
+INSERT INTO `dede_uploads` VALUES('4','5','南召联社“四支持四推动”助力县域经济发展','/uploads/allimg/150729/1-150H9202S40-L.jpg','1','0','0','0','65618','1438172914','1');
+INSERT INTO `dede_uploads` VALUES('5','6','超细立磨在非金属矿超细粉加工中的应用','/uploads/allimg/150729/20291U448-0.jpg','1','383','289','0','72715','1438172960','1');
+INSERT INTO `dede_uploads` VALUES('6','7','碳酸钙同质化过剩 行业三方面着手谋摆脱困境','/uploads/allimg/150729/1-150H92029490-L.jpg','1','0','0','0','38134','1438172989','1');
+INSERT INTO `dede_uploads` VALUES('7','8','李克强对话全球工商领袖 中国能确保不发生金融','/uploads/allimg/150729/1-150H92039370-L.jpg','1','0','0','0','19378','1438173577','1');
+INSERT INTO `dede_uploads` VALUES('8','0','150729/1-150H921210HC.jpg','/uploads/allimg/150729/1-150H921210HC.jpg','1','1206','631','0','344338','1438176067','1');
+INSERT INTO `dede_uploads` VALUES('9','9','网站正式上线','/uploads/allimg/150730/1-150I0121Q40-L.jpg','1','0','0','0','34388','1438229894','1');
+INSERT INTO `dede_uploads` VALUES('10','10','网站改版升级啦','/uploads/allimg/150730/1-150I01220040-L.jpg','1','0','0','0','55625','1438230004','1');

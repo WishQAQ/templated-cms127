@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;}
+body{font-size:12px; color:#666; font-family:"微软雅黑",Arial, Helvetica, sans-serif; background:#fcfcfc; -webkit-text-size-adjust:none;}
+a{text-decoration:none;color:#666;}
+a:hover{text-decoration: none; color:#01538a;}
+img{margin: 0px; padding: 0px; border:0; vertical-align:bottom;}
+li{list-style:none;}
+.left{float:left;}
+.right{float:right;}
+.clear{ clear: both; width: 100%; height: 0px; font-size: 0px; overflow:hidden;}
+
+.content{ width:1120px; margin:0 auto;}
+
+.header{ height:85px;}
+.header .logo{ width:170px; height:85px; float:left; margin-right:20px;}
+.header .nav{ width:930px; height:85px; float:left;}
+.header .nav ul li{ position:relative; z-index:1000; float:left; line-height:85px; height:85px; width:114px; border:1px solid #fcfcfc; border-top:0;border-bottom:0; text-align:center; font-size:14px; }
+.header .nav ul li.on,.header .nav ul li a.on{ display:block; background:#01538a; color:#fff;}
+.header .nav ul li.on a{ color:#fff;}
+.header .nav ul li .box{ position: absolute; left:0; top:85px; z-index:999; display:none;  width:114px; padding:15px 0px; background:#fff url(../images/navbox_bg.jpg) no-repeat left top;}
+.header .nav ul li.on .box{ display:block;}
+.header .nav ul li .box .left{ width:120px;}
+.header .nav ul li .box .left a{ display:block; padding-left:10px; text-align:left; line-height:40px; color:#01538a; font-size:14px;}
+.header .nav ul li .box .right{ width:199px; border-left:1px dashed #01538a;}
+.header .nav ul li .box .right a{ display:block; margin-bottom:20px; padding-bottom:20px;border-bottom:1px dashed #01538a; }
+.header .nav ul li .box .right a.no{ border-bottom:0; margin-bottom:0;}
+
+.header .nav ul li .box_second{position:absolute; right:0; top:85px; z-index:999; display:none;  width:320px; padding:15px; background:#fff url(../images/navbox_bg.jpg) no-repeat right top;}
+.header .nav ul li.on .box_second{ display:block;}
+.header .nav ul li .box_second .right{ width:120px;}
+.header .nav ul li .box_second .right a{ display:block; padding-left:10px; line-height:40px; color:#01538a; font-size:14px;}
+.header .nav ul li .box_second .left{ width:199px; border-right:1px dashed #01538a;}
+.header .nav ul li .box_second .left a{ display:block; margin-bottom:20px; padding-bottom:20px;border-bottom:1px dashed #01538a; }
+.header .nav ul li .box_second .left a.no{ border-bottom:0; margin-bottom:0;}
+
+.links{height:55px; line-height:55px;background:#2b2b2b;width:100%; color:#fff;}
+.links img{ vertical-align:middle; margin:0 5px;}
+.links span{ float:right; padding-top:15px;  }
+.links span .sel{ width:120px; height:24px; margin-left:10px;line-height:25px;border:1px solid #3E3E3E; background:#2B2B2B; color:#757575; font-size:12px;}
+.footer{height:50px;background:#fff; line-height:50px; text-align:center;}
+.footer a{ margin:0 5px;}
+
+.links b {
+    margin-left: 10px;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+.con-text { width:125px; height:24px; border:none; background:#696969; line-height:24px; padding-left:5px; vertical-align:top;}
+.con-btn { background:url(../images/fdj.jpg) ; width:32px; height:24px; border:none; cursor:pointer;vertical-align:top;}
+.page{margin-left:auto;margin-right:auto; text-align:center;}
+

@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.index_bg{ width:100%; height:667px; background:url(../images/index_bg.jpg) no-repeat top center;}
+.index_bg .main{width:100%; height:289px; padding-top:360px;}
+.index_bg .left{ width:840px; height:220px; padding:20px; background:url(../images/blue_bg.png) repeat 0 0;}
+.index_bg .left .news{ width:275px; float:left; margin-right:30px;}
+.index_bg .left .news .title{ padding:0 0 10px 40px; background:url(../images/index_icon.png) no-repeat 0 0;color:#fff; border-bottom:1px solid #23497C;}
+.index_bg .left .news .title p{ font-size:12px; text-transform:uppercase;}
+.index_bg .left .news .title h2{ font-size:14px;}
+.index_bg .left .news ul{ border-top:1px solid #488CC9; padding-top:20px; }
+.index_bg .left .news ul li{ padding:0 0 10px 10px; margin-bottom:10px; line-height:24px;border-bottom:1px dashed #1E669E;color:#fff; background:url(../images/wds_li_icon.png) no-repeat 0 8px;}
+.index_bg .left .news ul li.no{ border-bottom:0;}
+.index_bg .left .news ul li h3{ width:275px; height:24px; overflow:hidden;}
+.index_bg .left .news ul li h3 a{ font-size:12px; color:#fff;}
+.index_bg .left .aboutus{ width:260px; float:left; margin-right:30px;}
+.index_bg .left .aboutus .title{ padding:0 0 10px 40px; background:url(../images/index_icon.png) no-repeat 0 0;color:#fff; border-bottom:1px solid #23497C;}
+.index_bg .left .aboutus .title p{ font-size:12px; text-transform:uppercase;}
+.index_bg .left .aboutus .title h2{ font-size:14px;}
+.index_bg .left .aboutus .box{border-top:1px solid #488CC9; padding-top:20px;}
+.index_bg .left .aboutus .box .focusimg{ width:260px; height:124px; position:relative;}
+.index_bg .left .aboutus .box .focusimg .scrollimg{ width:260px; height:124px;position:relative;overflow:hidden;}
+.index_bg .left .aboutus .box .focusimg .scrollimg ul{ position:absolute; width:260px; height:124px;}
+.index_bg .left .aboutus .box .focusimg .scrollimg ul li{ position:relative; float:left; width:260px; height:124px;}
+.index_bg .left .aboutus .box .focusimg .scrollimg ul li h2{ height:30px; width:200px; overflow:hidden; padding:0 30px; text-align:center; line-height:30px; position:absolute; z-index:10;left:0; bottom:0; background: url(../images/blue_bg0.png) repeat 0 0; font-size:12px; font-weight:normal;}
+.index_bg .left .aboutus .box .focusimg .scrollimg ul li h2 a{ color:#fff;}
+.btn_next {background:url(../images/index_icon.png) no-repeat 0 -446px;right:10px;}
+.btn_prev {background:url(../images/index_icon.png) no-repeat 0 -405px;left:10px;}
+.btn_prev, .btn_next {position: absolute; bottom:0; z-index:100;width:12px; height:17px;cursor:pointer;}
+
+.index_bg .left .social{ width:225px; float:left; }
+.index_bg .left .social .title{width:225px; margin-bottom:20px; color:#fff;}
+.index_bg .left .social .title p{ font-size:12px; text-transform:uppercase;}
+.index_bg .left .social .title h2{ font-size:14px;}
+.index_bg .left .social ul{ padding-top:20px;}
+.index_bg .left .social ul li{ margin-bottom:20px;}
+.index_bg .left .social ul li .pic{ width:65px; float:left; margin-right:15px;}
+.index_bg .left .social ul li .text{ width:140px; float:left; color:#fff;}
+.index_bg .left .social ul li .text h3{ line-height:30px; width:140px; height:30px; overflow:hidden; font-size:12px; font-weight:normal;}
+.index_bg .left .social ul li .text h3 a{color:#fff;}
+.index_bg .left .social ul li .text p{}
+.index_bg .left .social ul li .text p a{color:#fff;}
+.index_bg .right{ float:left; width:200px; height:260px; padding:0 20px; background:url(../images/green_bg.png) repeat 0 0;}
+.index_bg .right ul li { border-bottom:1px dashed #fff; padding:25px 0;}
+.index_bg .right ul li.three{ border-bottom:0;}
+.index_bg .right ul li a{ display:block; color:#fff; padding-left:70px;}
+.index_bg .right ul li a h2{ font-size:14px;}
+.index_bg .right ul li a p{ font-size:12px; font-weight:bold;}
+.index_bg .right ul li.one a{ background:url(../images/index_icon.png) no-repeat 20px -160px;}
+.index_bg .right ul li.two a{ background:url(../images/index_icon.png) no-repeat 20px -240px;}
+.index_bg .right ul li.three a{ background:url(../images/index_icon.png) no-repeat 20px -320px;}

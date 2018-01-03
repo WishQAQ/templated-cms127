@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="/skin/css/page_style.css"/>
+<script type="text/javascript" src="/skin/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/skin/js/nav.js"></script>
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/skin/js/base.js"></script>
+<script language="javascript" src="/skin/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('*');
+</script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="page_banner">
+  <div class="banner_about">
+  </div>
+</div>
+<div class="aboutus_bg page_content">
+  <div class="content">
+    {dede:include filename="left.htm"/}
+    <div class="right">
+      <div class="title"> <span>当前位置：{dede:field name='position'/}</span><b>{dede:field name='typename'/}</b> </div>
+      <div class="r_content">
+        <div class="pane_content about_main">
+          {dede:field.content/}
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>
